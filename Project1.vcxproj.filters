@@ -1,127 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Source Files\Core">
-      <UniqueIdentifier>{2f8a0f29-7cfc-4b1d-8c11-d62ed258d1f4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Core">
-      <UniqueIdentifier>{1dc45684-cfca-4323-ad7c-d0fe77b8a3c7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Utils">
-      <UniqueIdentifier>{f6bf95fb-0906-4943-8efc-c2d0362a8b2f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Utils">
-      <UniqueIdentifier>{e49eeaa5-23eb-45fe-9008-53e511d9aa4b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Graphics">
-      <UniqueIdentifier>{24bbe2e4-8798-4b9d-8ebf-f5aa242ed210}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Graphics">
-      <UniqueIdentifier>{6434f2c1-55aa-44c4-b2b1-d19bd73ca71b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Assets">
-      <UniqueIdentifier>{4b5336c6-799f-4876-a6e9-6f8fdcd6a098}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Assets">
-      <UniqueIdentifier>{220adca3-4505-48d8-9fc0-451f6ef3d093}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="Core\CGame.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Window.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TexturesManager.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugs\Debugs.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\CGame.h">
+      <Filter>Header\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Window.h">
+      <Filter>Header\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugs\Debugs.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Graphics.h">
+      <Filter>Header\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TexturesManager.h">
+      <Filter>Header\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Core\CGame.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Core\Window.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Graphics.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\TexturesManager.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Debugs\Debugs.cpp">
-      <Filter>Source Files\Utils</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Core\CGame.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Core\Window.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Graphics.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\TexturesManager.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Debugs\Debugs.h">
-      <Filter>Header Files\Utils</Filter>
-    </ClInclude>
+    <Filter Include="Header">
+      <UniqueIdentifier>{59040729-d53c-4e0d-a94c-e5ad140e4e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Core">
+      <UniqueIdentifier>{32679cac-18c0-462b-bf78-d3be485aed9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Graphics">
+      <UniqueIdentifier>{7caeea9e-c48b-4a8e-b0fa-9e00125f979d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Utils">
+      <UniqueIdentifier>{047cf5f3-bec5-47a8-b3f1-a0f7671c6a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Assets">
+      <UniqueIdentifier>{8ce56f54-943e-40c0-90a7-11841d2cb8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ce99fc3b-ffc7-4a6d-967e-25ce623376ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{8866f712-c05e-4e6c-b9f6-0c70b08b539e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{6e1470d8-1edd-4b73-b601-9b670ec2dae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{35d201e7-e23c-4445-a130-287f38c316f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets">
+      <UniqueIdentifier>{24866cfd-7a69-4395-b09e-2904955a5fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{84d728d0-099a-443c-8223-1411f336be3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="mario.ico">
-=======
-    <ClCompile Include="Window.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Debugs.h">
-      <Filter>Header Files\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Debugs.cpp">
-      <Filter>Source Files\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="CGame.cpp">
-      <Filter>Source Files\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="TexturesManager.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Window.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="CGame.h">
-      <Filter>Header Files\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="TexturesManager.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="C:\Users\ACER\Downloads\mario.ico">
->>>>>>> 76e0da3e7861cfd99e75ce6a6bd1ad43e4a7b638
-      <Filter>Resource Files</Filter>
+      <Filter>Resource</Filter>
     </Image>
   </ItemGroup>
 </Project>
