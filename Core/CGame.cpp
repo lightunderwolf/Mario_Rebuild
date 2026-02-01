@@ -2,6 +2,10 @@
 #include "Window.h"
 #include "Debugs.h"
 #include "Graphics.h"
+#include "TexturesManager.h"
+#include "MarioTextures.h"
+#include "TileTextures.h"
+#include "EnemyTextures.h"
 
 CGame* CGame::__instance = nullptr;
 
@@ -27,4 +31,11 @@ void CGame::Run() {
     }
     Graphics::Cleanup();
     DebugOut(L"[CGame] Run end\n");
+}
+void CGame::LoadResources() {
+    Textures::Init();
+
+    LoadMarioTextures();
+    LoadTileTextures();
+    LoadEnemyTextures();
 }

@@ -9,4 +9,5 @@ public:
     static CGame* GetInstance();
     void Init(HWND hWnd);
     void Run();
+    void LoadResources();
 };

@@ -19,6 +19,15 @@
     <ClCompile Include="Debugs\Debugs.cpp">
       <Filter>Source\Utils</Filter>
     </ClCompile>
+    <ClCompile Include="Graphics\MarioTextures.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TileTextures.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\EnemyTextures.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\CGame.h">
@@ -34,6 +43,15 @@
       <Filter>Header\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Graphics\TexturesManager.h">
+      <Filter>Header\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\MarioTextures.h">
+      <Filter>Header\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TileTextures.h">
+      <Filter>Header\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\EnemyTextures.h">
       <Filter>Header\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
@@ -74,10 +92,22 @@
     <Filter Include="Resource">
       <UniqueIdentifier>{84d728d0-099a-443c-8223-1411f336be3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource\Texture">
+      <UniqueIdentifier>{ecb63933-3b7d-4ce5-8fea-6159af5836b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="mario.ico">
       <Filter>Resource</Filter>
+    </Image>
+    <Image Include="Texture\enemies.png">
+      <Filter>Resource\Texture</Filter>
+    </Image>
+    <Image Include="Texture\mario.png">
+      <Filter>Resource\Texture</Filter>
+    </Image>
+    <Image Include="Texture\misc.png">
+      <Filter>Resource\Texture</Filter>
     </Image>
   </ItemGroup>
 </Project>

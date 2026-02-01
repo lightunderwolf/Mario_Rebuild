@@ -4,6 +4,10 @@
 
 std::unordered_map<int, ID3D10ShaderResourceView*> Textures::textures;
 
+void Textures::Init()
+{
+    textures.clear();
+}
 void Textures::Add(int id, LPCWSTR filePath)
 {
     if (textures[id])

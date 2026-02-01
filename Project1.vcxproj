@@ -133,19 +133,28 @@
     </ClCompile>
     <ClCompile Include="Core\Window.cpp" />
     <ClCompile Include="Debugs\Debugs.cpp" />
+    <ClCompile Include="Graphics\EnemyTextures.cpp" />
     <ClCompile Include="Graphics\Graphics.cpp" />
+    <ClCompile Include="Graphics\MarioTextures.cpp" />
     <ClCompile Include="Graphics\TexturesManager.cpp" />
+    <ClCompile Include="Graphics\TileTextures.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\CGame.h" />
     <ClInclude Include="Core\Window.h" />
     <ClInclude Include="Debugs\Debugs.h" />
+    <ClInclude Include="Graphics\EnemyTextures.h" />
     <ClInclude Include="Graphics\Graphics.h" />
+    <ClInclude Include="Graphics\MarioTextures.h" />
     <ClInclude Include="Graphics\TexturesManager.h" />
+    <ClInclude Include="Graphics\TileTextures.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="mario.ico" />
+    <Image Include="Texture\enemies.png" />
+    <Image Include="Texture\mario.png" />
+    <Image Include="Texture\misc.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
