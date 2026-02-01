@@ -3,5 +3,5 @@
 
 void LoadMarioTextures()
 {
-    Textures::Add(TEX_MARIO, L"Texture\mario.png");
+    Textures::Add(TEX_MARIO, L"Texture/mario.png");
 }
