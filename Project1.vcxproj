@@ -102,7 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Program Files\1\Mario\Project1\Debugs;D:\Program Files\1\Mario\Project1;D:\Program Files\1\Mario\Project1\Graphics;D:\Program Files\1\Mario\Project1\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Program Files\1\Mario\Project1\Textures;D:\Program Files\1\Mario\Project1\Resource;D:\Program Files\1\Mario\Project1\Debugs;D:\Program Files\1\Mario\Project1;D:\Program Files\1\Mario\Project1\Graphics;D:\Program Files\1\Mario\Project1\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -133,28 +133,28 @@
     </ClCompile>
     <ClCompile Include="Core\Window.cpp" />
     <ClCompile Include="Debugs\Debugs.cpp" />
-    <ClCompile Include="Graphics\EnemyTextures.cpp" />
     <ClCompile Include="Graphics\Graphics.cpp" />
-    <ClCompile Include="Graphics\MarioTextures.cpp" />
     <ClCompile Include="Graphics\TexturesManager.cpp" />
-    <ClCompile Include="Graphics\TileTextures.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Textures\EnemyTextures.cpp" />
+    <ClCompile Include="Textures\MarioTextures.cpp" />
+    <ClCompile Include="Textures\TileTextures.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\CGame.h" />
     <ClInclude Include="Core\Window.h" />
     <ClInclude Include="Debugs\Debugs.h" />
-    <ClInclude Include="Graphics\EnemyTextures.h" />
     <ClInclude Include="Graphics\Graphics.h" />
-    <ClInclude Include="Graphics\MarioTextures.h" />
     <ClInclude Include="Graphics\TexturesManager.h" />
-    <ClInclude Include="Graphics\TileTextures.h" />
+    <ClInclude Include="Textures\EnemyTextures.h" />
+    <ClInclude Include="Textures\MarioTextures.h" />
+    <ClInclude Include="Textures\TileTextures.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="mario.ico" />
-    <Image Include="Texture\enemies.png" />
-    <Image Include="Texture\mario.png" />
-    <Image Include="Texture\misc.png" />
+    <Image Include="Resource\enemies.png" />
+    <Image Include="Resource\mario.png" />
+    <Image Include="Resource\misc.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

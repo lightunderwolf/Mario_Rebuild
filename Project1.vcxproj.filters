@@ -19,14 +19,14 @@
     <ClCompile Include="Debugs\Debugs.cpp">
       <Filter>Source\Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Graphics\MarioTextures.cpp">
-      <Filter>Source\Graphics</Filter>
+    <ClCompile Include="Textures\EnemyTextures.cpp">
+      <Filter>Source\Assets</Filter>
     </ClCompile>
-    <ClCompile Include="Graphics\TileTextures.cpp">
-      <Filter>Source\Graphics</Filter>
+    <ClCompile Include="Textures\MarioTextures.cpp">
+      <Filter>Source\Assets</Filter>
     </ClCompile>
-    <ClCompile Include="Graphics\EnemyTextures.cpp">
-      <Filter>Source\Graphics</Filter>
+    <ClCompile Include="Textures\TileTextures.cpp">
+      <Filter>Source\Assets</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -45,14 +45,14 @@
     <ClInclude Include="Graphics\TexturesManager.h">
       <Filter>Header\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Graphics\MarioTextures.h">
-      <Filter>Header\Graphics</Filter>
+    <ClInclude Include="Textures\EnemyTextures.h">
+      <Filter>Header\Assets</Filter>
     </ClInclude>
-    <ClInclude Include="Graphics\TileTextures.h">
-      <Filter>Header\Graphics</Filter>
+    <ClInclude Include="Textures\MarioTextures.h">
+      <Filter>Header\Assets</Filter>
     </ClInclude>
-    <ClInclude Include="Graphics\EnemyTextures.h">
-      <Filter>Header\Graphics</Filter>
+    <ClInclude Include="Textures\TileTextures.h">
+      <Filter>Header\Assets</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -100,13 +100,13 @@
     <Image Include="mario.ico">
       <Filter>Resource</Filter>
     </Image>
-    <Image Include="Texture\enemies.png">
+    <Image Include="Resource\enemies.png">
       <Filter>Resource\Texture</Filter>
     </Image>
-    <Image Include="Texture\mario.png">
+    <Image Include="Resource\mario.png">
       <Filter>Resource\Texture</Filter>
     </Image>
-    <Image Include="Texture\misc.png">
+    <Image Include="Resource\misc.png">
       <Filter>Resource\Texture</Filter>
     </Image>
   </ItemGroup>
