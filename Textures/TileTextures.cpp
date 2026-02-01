@@ -3,5 +3,5 @@
 
 void LoadTileTextures()
 {
-    Textures::Add(TEX_ENEMY, L"Texture/misc.png");
+    Textures::Add(TEX_ENEMY, L"Resource/misc.png");
 }

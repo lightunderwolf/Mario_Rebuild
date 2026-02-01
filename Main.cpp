@@ -21,6 +21,7 @@ int WINAPI WinMain(
 	SetDebugWindow(hWnd);
 	CGame* game = CGame::GetInstance();
 	game->Init(hWnd);
+	game->LoadResources();
 	game->Run();
 
 	return 0;
