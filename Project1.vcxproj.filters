@@ -19,14 +19,14 @@
     <ClCompile Include="Debugs\Debugs.cpp">
       <Filter>Source\Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Textures\EnemyTextures.cpp">
-      <Filter>Source\Assets</Filter>
+    <ClCompile Include="Assets\Textures\EnemyTextures.cpp">
+      <Filter>Source\Assets\Textures</Filter>
     </ClCompile>
-    <ClCompile Include="Textures\MarioTextures.cpp">
-      <Filter>Source\Assets</Filter>
+    <ClCompile Include="Assets\Textures\MarioTextures.cpp">
+      <Filter>Source\Assets\Textures</Filter>
     </ClCompile>
-    <ClCompile Include="Textures\TileTextures.cpp">
-      <Filter>Source\Assets</Filter>
+    <ClCompile Include="Assets\Textures\TileTextures.cpp">
+      <Filter>Source\Assets\Textures</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -45,14 +45,14 @@
     <ClInclude Include="Graphics\TexturesManager.h">
       <Filter>Header\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Textures\EnemyTextures.h">
-      <Filter>Header\Assets</Filter>
+    <ClInclude Include="Assets\Textures\EnemyTextures.h">
+      <Filter>Header\Assets\Textures</Filter>
     </ClInclude>
-    <ClInclude Include="Textures\MarioTextures.h">
-      <Filter>Header\Assets</Filter>
+    <ClInclude Include="Assets\Textures\MarioTextures.h">
+      <Filter>Header\Assets\Textures</Filter>
     </ClInclude>
-    <ClInclude Include="Textures\TileTextures.h">
-      <Filter>Header\Assets</Filter>
+    <ClInclude Include="Assets\Textures\TileTextures.h">
+      <Filter>Header\Assets\Textures</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +94,36 @@
     </Filter>
     <Filter Include="Resource\Texture">
       <UniqueIdentifier>{ecb63933-3b7d-4ce5-8fea-6159af5836b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Assets\Animations">
+      <UniqueIdentifier>{55105446-8de5-472e-9642-8b9797c2f7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Assets\Sprites">
+      <UniqueIdentifier>{31d37b0e-ed23-4000-88c6-65a9888c4422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Assets\Textures">
+      <UniqueIdentifier>{336b8165-f987-44b9-a8a7-3ec9070cbc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\Sprites">
+      <UniqueIdentifier>{ba5257b9-c488-43c2-bfbe-f12da4bd907d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\Textures">
+      <UniqueIdentifier>{e91ddac5-9cc8-4c90-8d3e-30880d140991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\Animations">
+      <UniqueIdentifier>{74d74675-4dcc-449c-96c6-e5df9309535d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Assets\Screens">
+      <UniqueIdentifier>{f8b6866d-006c-47a5-bcf1-bce2da4e25fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\Screens">
+      <UniqueIdentifier>{25fbd77f-b088-4867-bcae-c3089f0a6f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Assets\GameObjects">
+      <UniqueIdentifier>{f728218f-9308-4409-80fb-5b038c360fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assets\GameObjects">
+      <UniqueIdentifier>{6ebb310a-9563-4e70-9a23-e43485cb5f55}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
