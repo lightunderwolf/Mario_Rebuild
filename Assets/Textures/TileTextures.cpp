@@ -1,7 +1,8 @@
-#include "EnemyTextures.h"
-#include "TexturesManager.h"
 
+#include "TileTextures.h"
+#include "TexturesManager.h"
+#include "TextureIDs.h"
 void LoadTileTextures()
 {
-    Textures::Add(TEX_ENEMY, L"Resource/misc.png");
+    Textures::Add(TEX_TILES, L"Resource/misc.png");
 }

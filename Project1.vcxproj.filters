@@ -28,6 +28,18 @@
     <ClCompile Include="Assets\Textures\TileTextures.cpp">
       <Filter>Source\Assets\Textures</Filter>
     </ClCompile>
+    <ClCompile Include="Assets\Sprites\SpriteMaker.cpp">
+      <Filter>Source\Assets\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Sprites\SpriteManager.cpp">
+      <Filter>Source\Assets\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Sprites\Sprites_Mario.cpp">
+      <Filter>Source\Assets\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Sprites\Sprite.cpp">
+      <Filter>Source\Assets\Sprites</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\CGame.h">
@@ -52,6 +64,18 @@
       <Filter>Header\Assets\Textures</Filter>
     </ClInclude>
     <ClInclude Include="Assets\Textures\TileTextures.h">
+      <Filter>Header\Assets\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Sprites\Sprite.h">
+      <Filter>Header\Assets\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Sprites\SpriteMaker.h">
+      <Filter>Header\Assets\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Sprites\SpriteManager.h">
+      <Filter>Header\Assets\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Textures\TextureIDs.h">
       <Filter>Header\Assets\Textures</Filter>
     </ClInclude>
   </ItemGroup>
